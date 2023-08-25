@@ -1,7 +1,7 @@
 body {
     padding: 5px;
     background-color: rgb(32, 29, 29);
-    width: 130px;
+    width: 330px;
 }
 
 .header {
@@ -14,4 +14,23 @@ hr {
     border-top: 3px solid rgb(14, 14, 14);
     margin: 1em 0;
     padding: 0; 
+}
+.title {
+  padding: 0;
+  margin: 0;
+  color: white;
+  font-size: 20px;
+}
+.cookieCleanerButton {
+  width: 100%;
+  background-color: #C7A317;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 12px;
+  font-weight: bold;
 }
