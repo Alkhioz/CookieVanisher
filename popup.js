@@ -18,5 +18,6 @@ document.addEventListener("DOMContentLoaded", function() {
         chrome.tabs.reload(tab.id);
       }
     });
+    window.close();
   });
 });
