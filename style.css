@@ -1,0 +1,17 @@
+body {
+    padding: 5px;
+    background-color: rgb(32, 29, 29);
+    width: 130px;
+}
+
+.header {
+    text-align: center;
+}
+hr { 
+    display: block;
+    height: 1px;
+    border: 0; 
+    border-top: 3px solid rgb(14, 14, 14);
+    margin: 1em 0;
+    padding: 0; 
+}
