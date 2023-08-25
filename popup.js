@@ -12,5 +12,11 @@ document.addEventListener("DOMContentLoaded", function() {
         }
       });
     });
+    chrome.tabs.query({ active: true, currentWindow: true }, (tabs) => {
+      const tab = tabs[0];
+      if (tab && tab.id) {
+        chrome.tabs.reload(tab.id);
+      }
+    });
   });
 });
